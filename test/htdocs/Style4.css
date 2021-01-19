@@ -1,0 +1,129 @@
+body {
+  background-color: #EAE7DC;
+}
+h1 {
+  font-family: abandoned;
+  color: #E85A4F;
+  letter-spacing: 3px;
+  text-align: center;
+}
+p {
+  font-family: AP;
+  color: #E98074;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  text-align: justify;
+  margin: 5%;
+}
+a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #8E8D8A;
+}
+@font-face {
+	font-family: pakenham;
+	src: url(../fonts/pakenham.ttf);
+}
+@font-face {
+	font-family: abandoned;
+	src: url(../fonts/Abandoned.ttf);
+}
+@font-face {
+	font-family: AP;
+	src: url(../fonts/APRegular.ttf);
+}
+section {
+  position: relative;
+  width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  positon: fixed;
+}
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid #8E8D8A;
+  font-family: pakenham;
+  transition: color .5s, background-color .5s;
+}
+.topnav img {
+  float: right;
+  width: 10%;
+}
+.topnav a:hover {
+  background-color: #8E8D8A;
+  color: #EAE7DC;
+}
+.topnav a.active {
+  font-weight: bolder;
+}
+.topnav {
+  width: 85%;
+  margin: 10px;
+  padding: 15px;
+  margin-left: 5%;
+}
+section {
+  display: block;
+  height: 80vh;
+}
+section img{
+  margin-left: 30%;
+  border-radius: 10%;
+  width: 40%;
+}
+footer {
+  position: relative;
+  font-family: AP;
+  text-align: center;
+  bottom: 0;
+  margin: 5% 0;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 1%;
+}
+footer a {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+footer li:hover {
+  filter: grayscale(100%);
+}
+.sprite1 {
+  margin: auto;
+  margin-top: 2%;
+	background: url('../images/fb.png') no-repeat 0 0;
+  background-size: cover;
+	width: 100px;
+	height: 100px;
+  border-radius: 50%;
+}
+.sprite2 {
+  margin: auto;
+  margin-top: 2%;
+	background: url('../images/twt.png') no-repeat 0 0;
+  background-size: cover;
+	width: 100px;
+	height: 100px;
+  border-radius: 50%;
+}
+.sprite3 {
+  margin: auto;
+  margin-top: 2%;
+	background: url('../images/tvt.png') no-repeat 0 0;
+  background-size: cover;
+	width: 100px;
+	height: 100px;
+  border-radius: 50%;
+}

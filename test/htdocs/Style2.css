@@ -1,0 +1,150 @@
+body {
+  background-color: #EAE7DC;
+  height: 200vh;
+}
+h1 {
+  font-family: abandoned;
+  color: #E85A4F;
+  letter-spacing: 3px;
+}
+p {
+  font-family: AP;
+  color: #E98074;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #8E8D8A;
+}
+@font-face {
+	font-family: pakenham;
+	src: url(../fonts/pakenham.ttf);
+}
+@font-face {
+	font-family: abandoned;
+	src: url(../fonts/Abandoned.ttf);
+}
+@font-face {
+	font-family: AP;
+	src: url(../fonts/APRegular.ttf);
+}
+section {
+  position: relative;
+  width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  positon: fixed;
+}
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid #8E8D8A;
+  font-family: pakenham;
+  transition: color .5s, background-color .5s;
+}
+.topnav img {
+  float: right;
+  width: 10%;
+}
+.topnav a:hover {
+  background-color: #8E8D8A;
+  color: #EAE7DC;
+}
+
+.topnav a.active {
+  font-weight: bolder;
+}
+div {
+  width: 85%;
+  margin: 10px;
+  padding: 15px;
+  margin-left: 5%;
+}
+.two img {
+  width: 25%;
+  float: left;
+  margin-top: 5%;
+}
+.two h1, p {
+  width: 70%;
+  float: right;
+}
+.three img {
+  width: 25%;
+  float: left;
+  margin-top: 10%;
+}
+.three h1, p {
+  width: 70%;
+  float: right;
+}
+.four img {
+  width: 25%;
+  float: left;
+}
+.four h1, p {
+  width: 70%;
+  float: right;
+}
+.four2 {
+  width: 100%;
+  font-family: AP;
+  text-align: center;
+  margin: 5% 0;
+}
+.four2 div {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.four2 ul {
+  list-style-type: none;
+}
+.four2 ul li {
+  display: inline-block;
+  margin: 0 1%;
+}
+.four2 a {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.four2 li:hover {
+  filter: grayscale(100%);
+}
+.sprite1 {
+  margin: auto;
+  margin-top: 2%;
+	background: url('../images/fb.png') no-repeat 0 0;
+  background-size: cover;
+	width: 100px;
+	height: 100px;
+  border-radius: 50%;
+}
+.sprite2 {
+  margin: auto;
+  margin-top: 2%;
+	background: url('../images/twt.png') no-repeat 0 0;
+  background-size: cover;
+	width: 100px;
+	height: 100px;
+  border-radius: 50%;
+}
+.sprite3 {
+  margin: auto;
+  margin-top: 2%;
+	background: url('../images/tvt.png') no-repeat 0 0;
+  background-size: cover;
+	width: 100px;
+	height: 100px;
+  border-radius: 50%;
+}
